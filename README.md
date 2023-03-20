@@ -22,6 +22,13 @@ This will start the app on your local server, and you can access it by navigatin
 
 Once the app is running, you can click on the "Roll" button to generate a random score for the player. The app will automatically update the scoreboard with the new score. To reset the scoreboard, click on the "Reset" button.
 
+# Testing 
+To run the unit test scripts use the following command: 
+
+```
+npm run test
+``` 
+
 # Credits
 I got a lot of the scorecard component from a youtube tutorial, tied to the following github repo: 
 https://github.com/dearfrankg/react-bowling
