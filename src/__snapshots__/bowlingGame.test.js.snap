@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BowlingGame kata should handle a gutter game 1`] = `
+Array [
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 0,
+    "extraBox": "",
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+]
+`;
+
+exports[`BowlingGame kata should handle a perfect game 1`] = `
+Array [
+  Object {
+    "cumulativeScore": 30,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 60,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 90,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 120,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 150,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 180,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 210,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 240,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 270,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 300,
+    "extraBox": "X",
+    "leftBox": "X",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+]
+`;
+
+exports[`BowlingGame kata should handle all ones 1`] = `
+Array [
+  Object {
+    "cumulativeScore": 2,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 4,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 6,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 8,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 10,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 12,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 14,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 18,
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+  Object {
+    "cumulativeScore": 20,
+    "extraBox": "",
+    "leftBox": 1,
+    "pinsUp": 10,
+    "rightBox": 1,
+  },
+]
+`;
+
+exports[`BowlingGame kata should handle one spare 1`] = `
+Array [
+  Object {
+    "cumulativeScore": 13,
+    "leftBox": 5,
+    "pinsUp": 10,
+    "rightBox": "/",
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 3,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 16,
+    "extraBox": "",
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+]
+`;
+
+exports[`BowlingGame kata should handle one strike 1`] = `
+Array [
+  Object {
+    "cumulativeScore": 17,
+    "leftBox": "",
+    "pinsUp": 10,
+    "rightBox": "X",
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 3,
+    "pinsUp": 10,
+    "rightBox": 4,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+  Object {
+    "cumulativeScore": 24,
+    "extraBox": "",
+    "leftBox": 0,
+    "pinsUp": 10,
+    "rightBox": 0,
+  },
+]
+`;

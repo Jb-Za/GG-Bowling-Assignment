@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.player-name,
+.score-board {
+  display: flex;
+  margin: 0 50px;
+  min-height: 100px;
+  font-size: 12pt;
+}
+
+.player-name {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+  font-size: 12pt;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.score-board {
+  margin-bottom: 30px;
+}
+
+.frame {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame:last-child {
+  flex: 3;
+}
+
+.frame-number {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #bb9;
+}
+
+.frame-score {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.running-score {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.frame:last-child .frame-score {
+  border-right: 1px solid black;
+}
+
+.frame:last-child .running-score {
+  border-right: 1px solid black;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box.right {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.extra {
+  display: none;
+}
+
+.frame:last-child div.extra {
+  display: flex;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.frame:last-child div.left {
+  border-bottom: 1px solid black;
+}
+
+.frame-score div.right {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.roll {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  border: 1px solid blue;
+  background: lightyellow;
+  font-size: 1em;
+}
+
+.roll:hover {
+  border: 1px solid blueviolet;
+}
+.roll:active {
+  background: lightskyblue;
+}
+
+.reset {
+  border-radius: 3%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #363e46;
+  color: white;
+  border: none;
+  border-radius: 0.5 rem;
+  padding: 1rem 2rem;
+
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #737e89;
+}
